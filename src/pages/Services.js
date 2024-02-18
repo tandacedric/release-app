@@ -44,7 +44,7 @@ const Services = () => {
 
   return (
     <>
-      <div className="services section-title mt-5">
+      <div id="service"  className="services section-title mt-5">
         <div className="container text-white">
           <div className="row align-items-center">
             <div className="col-md-7 mx-auto">

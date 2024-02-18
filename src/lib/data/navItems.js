@@ -2,27 +2,27 @@ export const navItems = [
   {
     id: 1,
     name: "Acceuil",
-    link: "/",
+    link: "#",
   },
   {
     id: 2,
-    name: "Services",
-    link: "/services",
+    name: "A propos de nous",
+    link: "#about-us",
   },
   {
     id: 3,
-    name: "Works",
-    link: "/works",
+    name: "Services",
+    link: "#service",
   },
   {
     id: 4,
-    name: "Equipes",
-    link: "/team",
+    name: "Partners",
+    link: "#partner",
   },
   {
     id: 5,
     name: "Contact",
     key:"contact",
-    link: "/contact",
+    link: "#contact",
   },
 ];

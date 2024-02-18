@@ -6,7 +6,7 @@ class OurTeam extends Component {
   render() {
     return (
       <>
-        <section className="team section-title mt-5 text-white text-center">
+        <section   id="partner" className="team section-title mt-5 text-white text-center">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-7 mx-auto">
@@ -45,6 +45,7 @@ class OurTeam extends Component {
             </div>
           </div>
         </section>
+        
       </>
     );
   }

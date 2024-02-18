@@ -9,9 +9,9 @@ const Navbar = () => {
     <header className="header-transparent">
       <nav className="navbar navbar-expand-lg navbar-dark text-center">
         <div className="container">
-          <Link to="/" className="navbar-brand">
+          <a href="#" className="navbar-brand">
             <img className="banner-image" style={{width: "180px" }} src={Logo} alt="logos" />
-          </Link>
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,10 +30,10 @@ const Navbar = () => {
               return (
                 <ul className="navbar-nav ml-auto " key={item.id}>
                   <li className="nav-item">
-                    <Link to={item.link} className="nav-link">
+                    <a href={item.link} className="nav-link">
                       {item.key!== "contact" ? item.name: <button style={{fontWeight: 900, fontFamily:'"Paytone One", sans-serif !important' }} className="btn  btn-lg btn-primary">{item.name}</button>}
                       
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               );

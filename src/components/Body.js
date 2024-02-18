@@ -4,11 +4,14 @@ import Portfolio from "./Portfolio";
 import "../App.scss";
 import LetsWorkTogether from "./LetsWorkTogether";
 import Services from "pages/Services";
+import Contact from "pages/Contact";
+import OurTeam from "pages/OurTeam";
+import Testimonial from "pages/Testimonial";
 
 const Body = () => {
   return (
     <>
-      <section className="about-us-area text-white">
+      <section id="about-us" className="about-us-area text-white">
         <div className="container text-center">
           <div className="row align-items-center">
             <div className="col-12">
@@ -27,8 +30,11 @@ const Body = () => {
           </div>
         </div>
       </section>
-
-      <Portfolio />
+      <Services/>
+      {/* <Portfolio /> */}
+      {/* <OurTeam /> */}
+      <Testimonial />
+      <Contact />
 
       {/* <section className="lead">
         <div className="container text-center">
@@ -47,7 +53,7 @@ const Body = () => {
           </div>
         </div>
       </section> */}
-      <Services />
+      
       <LetsWorkTogether />
     </>
   );

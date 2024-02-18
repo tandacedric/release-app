@@ -191,6 +191,28 @@ footer {
   background: $thirdColor;
 }
 
+
+/*---------------------------------------------------------------*/
+/*---------------------- testimonial page ---------------------------*/
+/*---------------------------------------------------------------*/
+
+.testimonial {
+  padding: 10%;
+  background: $thirdColor;
+  .title-font{
+    color: white;
+  }
+  p {
+    font-size: 1.6rem;
+    color: white;
+  }
+  h5{
+    color: white;
+  }
+
+ 
+}
+
 /*---------------------------------------------------------------*/
 /*---------------------- contact page ---------------------------*/
 /*---------------------------------------------------------------*/
@@ -331,7 +353,12 @@ footer {
 /*---------------------------------------------------------------*/
 
 .team {
-  margin-bottom: 10%;
+  // margin-bottom: 10%;
+  background: $thirdColor;
+  // background: $forthColor;
+  // -webkit-box-shadow: 0px 0px 46px -17px rgba(0, 0, 0, 0.75);
+  // -moz-box-shadow: 0px 0px 46px -17px rgba(0, 0, 0, 0.75);
+  // box-shadow: 0px 0px 46px -17px rgba(0, 0, 0, 0.75);
 
   .portfolio-thumb {
     margin: 0 auto;
@@ -782,7 +809,3 @@ footer {
     }
   }
 }
-
-
-
-
