@@ -1,6 +1,6 @@
 {
-  "name": "agency",
-  "version": "0.1.0",
+  "name": "release-app",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://tandacedric.github.io/release-app",
   "dependencies": {
@@ -16,7 +16,6 @@
   },
   "scripts": {
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider &&  react-scripts start",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider &&  set \"GENERATE_SOURCEMAP=false\"  && react-scripts build",
     "test": "react-scripts test",

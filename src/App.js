@@ -14,7 +14,7 @@ import Works from "pages/Works";
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter> 
         <Navbar />
         <Switch>
           <Route exact path="/" component={HomePage} />
